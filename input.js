@@ -28,6 +28,9 @@ const handleUserInput = function(data) {
   if (data === 's') {
     connection.write("Move: down");
   }
+  if(data === " ") {
+    connection.write("Say: !Adios Muchachos!");
+  }
 };
 
 
